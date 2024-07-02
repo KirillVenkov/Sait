@@ -1,0 +1,86 @@
+   body { font-family: Arial, sans-serif; line-height: 1.6; }
+        .container { width: 80%; margin: auto; overflow: hidden; }
+        header { background: #50b3a2; color: white; padding-top: 30px; min-height: 70px; border-bottom: #e8491d 3px solid; }
+        header a { color: #ffffff; text-decoration: none; text-transform: uppercase; font-size: 16px; }
+        header ul { padding: 0; list-style: none; }
+        header li { float: left; display: inline; padding: 0 20px 0 20px; }
+        header #branding { float: left; }
+        header #branding h1 { margin: 0; }
+        header nav { float: right; margin-top: 10px; }
+        header .highlight, header .current a { color: #e8491d; font-weight: bold; }
+        header a:hover { color: #ffffff; font-weight: bold;
+      }
+        body {    
+  background-image: url('https://img.freepik.com/free-photo/design-space-abstract-earth-tone-background_53876-108331.jpg?w=1800&t=st=1719929846~exp=1719930446~hmac=8ee708e783b7337dc9ec6cd79f84c4d9e42a610fb1147d80f7531721e445bf89');
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
+}
+.table {
+   display: table;
+   border-collapse: collapse;
+   margin: 0 auto; 
+   margin-left: 40px; 
+   padding: 0px;
+   width: 50%;
+   box-shadow: 0 2px 3px #080808;
+ }
+ .row.header {
+   
+   text-align: left;
+   font-weight: bold;
+ }
+ 
+ .row {
+   display: table-row;
+ }
+ 
+ .cell {
+   display: table-cell;
+   padding: 8px;
+   border: 1px solid #070707;
+   text-align: center; 
+   vertical-align: middle; 
+ }
+ 
+ 
+ .row:hover {
+   background-color: #0a0a0a;
+ }
+ 
+ 
+ .cell:last-child {
+   border-right: 1px solid #070707;
+ }
+ .clock {
+   position: relative;
+   width: 200px;
+   height: 200px;
+   border: 5px solid black;
+   border-radius: 50%;
+   margin: 50px;
+ }
+ 
+ .hand {
+   position: absolute;
+   bottom: 50%;
+   left: 50%;
+   width: 1px;
+   height: 40%;
+   background: black;
+   transform-origin: 0 100%;
+ }
+ 
+ .hour-hand {
+   transform: rotate(90deg); /* Установите нужный угол */
+ }
+ 
+ .minute-hand {
+   transform: rotate(180deg); /* Установите нужный угол */
+ }
+ 
+ .second-hand {
+   transform: rotate(270deg); /* Установите нужный угол */
+   height: 45%;
+   background: red;
+ }

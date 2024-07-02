@@ -1,0 +1,29 @@
+table {
+  border: 2px solid #000000; 
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px; 
+}
+
+td, th {
+  border: 1px solid #000000; 
+  padding: 8px;
+  text-align: center; 
+}
+
+.form-table {
+  margin-top: 20px;
+}
+table {
+  position: relative;
+  top: 100px; 
+ 
+}
+.nagiev {
+  display: block;
+  margin: auto;
+  max-width: 100%; 
+  height: auto; 
+}
